@@ -1,0 +1,101 @@
+.main-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-left{
+    margin-top: 80px;
+    align-items: left;
+    float: right;
+
+}
+.heading1{
+font-size: 50px;
+
+}
+.p1-text{
+    
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+    align-items: left !important;
+}
+@media (max-width: 575.98px) {
+    .p1-text {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 775.98px) {
+    .p1-text {
+      font-size: 20px;
+    }
+  }
+.container-right img{
+    align-items: right !important;
+    
+
+
+}
+.ShoppingStart{
+    /* margin-top: 30px;
+    font-size: 20px;
+    background-color: rgba(15, 13, 13, 0.705);
+    border-color: #fff;
+    width: 120px; */
+  height: 50px;
+  background-color: #720e0e;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+
+}
+.ShoppingStart:hover{
+    transform: scale(1.2);
+    background-color: aquamarine;
+    color: blue;
+
+}
+.ShoppingStart img {
+    align-items: right;
+    text-align: left;
+    height: 50px;
+}
+/* style={{fontSize:'60px', textAlign:'left' }}  */
+
+.brands{
+    margin-top: 80px;
+    padding: 0px;
+}
+.brands Table{
+    border: none;
+}
+.brands Table td{
+    border: none;
+}
+.hero{
+    height: 70%;
+    text-align: right;
+
+
+
+}
+.sale-btn{
+    background-color: rgb(214, 47, 219);
+    border:none;
+    font-weight: 600;
+
+}
+.sale-btn:hover{
+    background-color: gold;
+    color: blue;
+    border: none;
+    font-weight: 600;
+    border-radius: 30%;
+    margin-bottom: 10px;
+    transition: 1s;
+    
+}
+
+

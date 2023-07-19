@@ -1,0 +1,21 @@
+.image-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.image-items{
+    
+    margin: 30px;
+    
+    
+}
+.images-set{
+    height: 300px;
+    width: 250px;
+    
+
+
+}
